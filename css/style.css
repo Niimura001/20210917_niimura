@@ -1,0 +1,477 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  width: 210px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.header-nav-list {
+  display: flex;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.header-nav-item {
+  margin-top: 10px;
+  margin-right: 20px;
+  color: rgb(179, 179, 164);
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.firstview {
+  position: relative;
+}
+.firstview-img {
+  margin: 40px 15px 0 auto;
+  display: block;
+  width: 55%;
+}
+.title {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 50px;
+  color: rgb(206, 22, 160);
+  font-family: 'Indie Flower', cursive;
+}
+.sub-title {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 25px;
+  color: rgb(206, 22, 160);
+  font-weight: 700;
+}
+em {
+  color: rgb(12, 145, 223);
+  font-style: normal;
+}
+.sub-title_2 {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  font-size: 15px;
+  color: rgb(167, 159, 165);
+}
+.section-title-mini-news {
+  left: 20%;
+  font-size: 20px;
+  color: rgb(206, 22, 160);
+  margin: 70px 0px 5px 320px;
+  font-family: 'Indie Flower', cursive;
+}
+.section-title-news {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0px 30px 320px;
+}
+.line {
+  border-bottom: 2px solid rgb(104, 100, 100);
+  text-align: center;
+  width: 800px;
+}
+.news {
+display: flex;
+flex-direction: column;
+text-align: left;
+width: 800px;
+margin: 5px auto;
+
+}
+.news dl {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+.news_logo {
+  width: 120px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 30px;
+  background: rgb(206, 22, 160);
+  text-align: center;
+  margin: 10px 20px 10px 10px;
+  display: inline-block;
+}
+.news dt {
+  margin: 5px 0px 0px 10px;
+  padding-bottom: 5px;
+  display: inline-block
+
+}
+.news dd {
+  display: inline-block;
+  margin-left: 20px;
+}
+.about {
+  background-color: rgb(221, 219, 219);
+  margin-top: 80px;
+  padding-top: 30px;
+  height: 550px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.section-title-mini-about {
+  left: 20%;
+  font-size: 20px;
+  color: rgb(206, 22, 160);
+  margin: 10px auto;
+  font-family: 'Indie Flower', cursive;
+}
+.section-title-about {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px auto;
+}
+.about-img {
+  margin: 70px 10% 0px auto;
+  display: block;
+  width: 500px;
+}
+.about-sentence1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+.about-sentence2 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 60px;
+}
+.section-title-mini-service {
+  left: 20%;
+  font-size: 20px;
+  color: rgb(206, 22, 160);
+  margin: 70px 0px 5px 130px;
+  font-family: 'Indie Flower', cursive;
+}
+.section-title-service {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0px 30px 130px;
+}
+.grid-service {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 600px 600px;
+  margin-left: 130px;
+}
+.education1{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #970631;
+}
+.education1-img{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.education1-title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 235px;
+  color: #fff;
+  margin-top: 30px;
+}
+.education1-sentence {
+  font-size: 20px;
+  padding: 5px;
+  color: #fff;
+  line-height: 2rem;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.education2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #a54a65;
+  text-align: left;
+  position: relative;
+}
+.education2-img{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.education2-title {
+  position: absolute;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+}
+.education2-sentence {
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+  color: #fff;
+  line-height: 2rem;
+  margin-top: 90px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.education3{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #856c73;
+  text-align: left;
+  position: relative;
+}
+.education3-img{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.education3-title {
+  position: absolute;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+}
+.education3-sentence {
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+  color: #fff;
+  line-height: 2rem;
+  margin-top: 90px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.blog {
+  background-color: rgb(221, 219, 219);
+  margin-top: 80px;
+  padding: 30px 50px;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.flex__item{
+  display: flex;
+  justify-content: center;
+}
+.section-title-mini-blog {
+  left: 20%;
+  font-size: 20px;
+  color: rgb(206, 22, 160);
+  margin: 40px 0px 5px 200px;
+  font-family: 'Indie Flower', cursive;
+}
+.section-title-blog {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px 30px 200px;
+}
+.card {
+  width: 340px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+.card__content-cat {
+  position: absolute;
+  padding: 10px 10px;
+  background: rgb(206, 22, 160);
+  margin: 0px auto auto 0px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px 0px 0px 0px;
+  height: 20px;
+  width: 40px;
+  text-align: center;
+}
+.card__img img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__content-ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+
+.card__content-tag {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__content-tag-item {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+
+.card__content-tag-item--last {
+  display: inline-block;
+  margin-left: 20px;
+  color: #000000;
+}
+.page__btn {
+  position: absolute;
+  width: 200px;
+  padding: 20px 0;
+  color: rgb(206, 22, 160);
+  border: 2px solid rgb(206, 22, 160);
+  border-radius: 30px;
+  background: white;
+  text-align: center;
+  margin: 400px auto 0;
+  display:block;
+}
+.company {
+  margin: 100px auto;
+  width: 800px;
+}
+.section-title-mini-company {
+  font-size: 20px;
+  color: rgb(206, 22, 160);
+  font-family: 'Indie Flower', cursive;
+  margin: 15px 0px 15px 10px;
+}
+.section-title-company {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px 25px 10px
+}
+.company-table th {
+  background-color: rgb(201, 204, 204);
+  height: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: left;
+}
+.company-table td {
+  height: 20px;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.recruit-interview {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.recruit-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 50%;
+  display: inline-block;
+  max-width: inherit;
+  display: block;
+}
+.recruit-text {
+  position: absolute;
+  margin: 150px 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.interview-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 50%;
+  display: inline-block;
+  max-width: inherit;
+  margin-left: 50%;
+}
+.interview-text {
+  position: absolute;
+  margin: 150px 150px 150px 1000px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+h4 {
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 450px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+.mail-line {
+  height: 70px;
+  width: 5px;
+  background-color: rgb(206, 22, 160);
+  margin: 20px auto;
+  display: block;
+}
+.mail__btn {
+  position: relative;
+  background-color: rgb(206, 22, 160);
+  width: 250px;
+  height: 50px;
+  display: block;
+  padding-top: 33px;
+  padding-left: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-top: 700px;
+  display:block;
+  margin: 30px auto;
+}
+.mail__btn::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 35px;
+  color: white;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  transform: translate(0, -50%);
+  display: inline-block;
+}
+small {
+  display: block;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px;
+}
