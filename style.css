@@ -172,7 +172,7 @@ em {
 }
 .grid-service {
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 55% 55%;
   grid-template-columns: 45% 45%;
   margin-left: 7%;
   text-align: center;
