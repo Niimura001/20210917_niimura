@@ -170,12 +170,12 @@ em {
   margin-bottom: 30px;
   margin-left: 20%;
 }
-
 .grid-service {
   display: grid;
-  grid-template-rows: 250px 250px;
-  grid-template-columns: 450px 450px;
-  margin: 5px auto;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 45% 45%;
+  margin-left: 7%;
+  text-align: center;
 }
 .education1 {
   grid-column: 1/2;
@@ -186,23 +186,21 @@ em {
   height: 200px;
   width: 200px;
   display: inline-block;
-  margin-left: 30%;
   margin-top: 30px;
 }
 .education1-title {
   font-weight: 600;
   font-size: 25px;
-  margin-left: 37%;
   color: #fff;
   margin-top: 30px;
 }
 .education1-sentence {
-  font-size: 15px;
+  font-size: 1.2rem;
   padding: 5px;
   color: #fff;
   line-height: 2rem;
-  margin-top: 30px;
-  margin-left: 5%;
+  text-align: left;
+  margin-left: 10%;
 }
 .education2 {
   grid-column: 2/3;
@@ -221,14 +219,14 @@ em {
 .education2-title {
   position: absolute;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   display: inline-block;
   margin-top: 50px;
 }
 .education2-sentence {
   position: absolute;
-  font-size: 17px;
+  font-size: 1.2rem;
   padding: 5px;
   color: #fff;
   line-height: 2rem;
@@ -253,14 +251,14 @@ em {
 .education3-title {
   position: absolute;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   display: inline-block;
   margin-top: 50px;
 }
 .education3-sentence {
   position: absolute;
-  font-size: 17px;
+  font-size: 1.2rem;
   padding: 5px;
   color: #fff;
   line-height: 2rem;
@@ -269,7 +267,7 @@ em {
   display: inline-block;
 }
 .blog {
-  max-width: 1100px;
+  width: 100%;
   background-color: rgb(221, 219, 219);
   margin-top: 80px;
   padding: 30px 0px;
@@ -427,11 +425,10 @@ em {
   z-index: +1;
 }
 .mail-txt {
-  text-align: center;
   display: inline-block;
   font-size: 20px;
   margin-top: 450px;
-  margin-left: 35%;
+  margin-left: 32%;
 }
 .mail-line {
   height: 70px;
