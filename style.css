@@ -280,7 +280,6 @@ em {
   background-color: rgb(221, 219, 219);
   height: 650px;
   position: relative;
-  padding: 0px;
 }
 .flex__item {
   display: flex;
