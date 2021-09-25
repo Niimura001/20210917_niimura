@@ -278,10 +278,9 @@ em {
 .blog {
   width: 100%;
   background-color: rgb(221, 219, 219);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 600px;
+  height: 650px;
   position: relative;
+  padding: 0px;
 }
 .flex__item {
   display: flex;
@@ -293,6 +292,7 @@ em {
   color: rgb(206, 22, 160);
   margin: 40px 0px 5px 200px;
   font-family: "Indie Flower", cursive;
+  padding-top: 30px;
 }
 .section-title-blog {
   font-size: 30px;
