@@ -5,6 +5,9 @@ a {
 img {
   max-width: 100%;
 }
+body {
+  max-width: 1500px;
+}
 .logo {
   width: 210px;
   margin-top: 30px;
@@ -170,12 +173,16 @@ em {
   margin-bottom: 30px;
   margin-left: 20%;
 }
+.grid-container {
+  display: grid;
+  place-items: center;
+}
 .grid-service {
   display: grid;
-  grid-template-rows: 55% 55%;
-  grid-template-columns: 45% 45%;
-  margin-left: 7%;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 1.5fr 1.5fr;
   text-align: center;
+  margin-bottom: 150px;
 }
 .education1 {
   grid-column: 1/2;
@@ -228,7 +235,7 @@ em {
 }
 .education2-sentence {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px;
   color: #fff;
   line-height: 2rem;
@@ -260,7 +267,7 @@ em {
 }
 .education3-sentence {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px;
   color: #fff;
   line-height: 2rem;
@@ -271,8 +278,8 @@ em {
 .blog {
   width: 100%;
   background-color: rgb(221, 219, 219);
-  margin-top: 80px;
-  padding: 30px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 600px;
   position: relative;
 }
@@ -478,5 +485,6 @@ small {
   background-color: whitesmoke;
   margin-top: 50px;
   text-align: center;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
